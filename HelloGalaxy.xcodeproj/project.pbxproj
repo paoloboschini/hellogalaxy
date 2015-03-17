@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		873F66AD1AB8339400F8F3BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873F66AC1AB8339400F8F3BA /* AppDelegate.swift */; };
+		873F66AF1AB8339400F8F3BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873F66AE1AB8339400F8F3BA /* ViewController.swift */; };
+		873F66B21AB8339400F8F3BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873F66B01AB8339400F8F3BA /* Main.storyboard */; };
+		873F66B41AB8339400F8F3BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873F66B31AB8339400F8F3BA /* Images.xcassets */; };
+		873F66B71AB8339400F8F3BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873F66B51AB8339400F8F3BA /* LaunchScreen.xib */; };
+		873F66C31AB8339400F8F3BA /* HelloGalaxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873F66C21AB8339400F8F3BA /* HelloGalaxyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		873F66BD1AB8339400F8F3BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 873F669F1AB8339400F8F3BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873F66A61AB8339400F8F3BA;
+			remoteInfo = HelloGalaxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		873F66A71AB8339400F8F3BA /* HelloGalaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGalaxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		873F66AB1AB8339400F8F3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873F66AC1AB8339400F8F3BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		873F66AE1AB8339400F8F3BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		873F66B11AB8339400F8F3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		873F66B31AB8339400F8F3BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		873F66B61AB8339400F8F3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		873F66BC1AB8339400F8F3BA /* HelloGalaxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloGalaxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		873F66C11AB8339400F8F3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873F66C21AB8339400F8F3BA /* HelloGalaxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloGalaxyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		873F66A41AB8339400F8F3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873F66B91AB8339400F8F3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		873F669E1AB8339400F8F3BA = {
+			isa = PBXGroup;
+			children = (
+				873F66A91AB8339400F8F3BA /* HelloGalaxy */,
+				873F66BF1AB8339400F8F3BA /* HelloGalaxyTests */,
+				873F66A81AB8339400F8F3BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		873F66A81AB8339400F8F3BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				873F66A71AB8339400F8F3BA /* HelloGalaxy.app */,
+				873F66BC1AB8339400F8F3BA /* HelloGalaxyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		873F66A91AB8339400F8F3BA /* HelloGalaxy */ = {
+			isa = PBXGroup;
+			children = (
+				873F66AC1AB8339400F8F3BA /* AppDelegate.swift */,
+				873F66AE1AB8339400F8F3BA /* ViewController.swift */,
+				873F66B01AB8339400F8F3BA /* Main.storyboard */,
+				873F66B31AB8339400F8F3BA /* Images.xcassets */,
+				873F66B51AB8339400F8F3BA /* LaunchScreen.xib */,
+				873F66AA1AB8339400F8F3BA /* Supporting Files */,
+			);
+			path = HelloGalaxy;
+			sourceTree = "<group>";
+		};
+		873F66AA1AB8339400F8F3BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				873F66AB1AB8339400F8F3BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		873F66BF1AB8339400F8F3BA /* HelloGalaxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				873F66C21AB8339400F8F3BA /* HelloGalaxyTests.swift */,
+				873F66C01AB8339400F8F3BA /* Supporting Files */,
+			);
+			path = HelloGalaxyTests;
+			sourceTree = "<group>";
+		};
+		873F66C01AB8339400F8F3BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				873F66C11AB8339400F8F3BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		873F66A61AB8339400F8F3BA /* HelloGalaxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873F66C61AB8339400F8F3BA /* Build configuration list for PBXNativeTarget "HelloGalaxy" */;
+			buildPhases = (
+				873F66A31AB8339400F8F3BA /* Sources */,
+				873F66A41AB8339400F8F3BA /* Frameworks */,
+				873F66A51AB8339400F8F3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloGalaxy;
+			productName = HelloGalaxy;
+			productReference = 873F66A71AB8339400F8F3BA /* HelloGalaxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		873F66BB1AB8339400F8F3BA /* HelloGalaxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873F66C91AB8339400F8F3BA /* Build configuration list for PBXNativeTarget "HelloGalaxyTests" */;
+			buildPhases = (
+				873F66B81AB8339400F8F3BA /* Sources */,
+				873F66B91AB8339400F8F3BA /* Frameworks */,
+				873F66BA1AB8339400F8F3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				873F66BE1AB8339400F8F3BA /* PBXTargetDependency */,
+			);
+			name = HelloGalaxyTests;
+			productName = HelloGalaxyTests;
+			productReference = 873F66BC1AB8339400F8F3BA /* HelloGalaxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		873F669F1AB8339400F8F3BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Paolo Boschini";
+				TargetAttributes = {
+					873F66A61AB8339400F8F3BA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					873F66BB1AB8339400F8F3BA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 873F66A61AB8339400F8F3BA;
+					};
+				};
+			};
+			buildConfigurationList = 873F66A21AB8339400F8F3BA /* Build configuration list for PBXProject "HelloGalaxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 873F669E1AB8339400F8F3BA;
+			productRefGroup = 873F66A81AB8339400F8F3BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				873F66A61AB8339400F8F3BA /* HelloGalaxy */,
+				873F66BB1AB8339400F8F3BA /* HelloGalaxyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		873F66A51AB8339400F8F3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873F66B21AB8339400F8F3BA /* Main.storyboard in Resources */,
+				873F66B71AB8339400F8F3BA /* LaunchScreen.xib in Resources */,
+				873F66B41AB8339400F8F3BA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873F66BA1AB8339400F8F3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		873F66A31AB8339400F8F3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873F66AF1AB8339400F8F3BA /* ViewController.swift in Sources */,
+				873F66AD1AB8339400F8F3BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873F66B81AB8339400F8F3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873F66C31AB8339400F8F3BA /* HelloGalaxyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		873F66BE1AB8339400F8F3BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 873F66A61AB8339400F8F3BA /* HelloGalaxy */;
+			targetProxy = 873F66BD1AB8339400F8F3BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		873F66B01AB8339400F8F3BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873F66B11AB8339400F8F3BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		873F66B51AB8339400F8F3BA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873F66B61AB8339400F8F3BA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		873F66C41AB8339400F8F3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		873F66C51AB8339400F8F3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		873F66C71AB8339400F8F3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloGalaxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		873F66C81AB8339400F8F3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloGalaxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		873F66CA1AB8339400F8F3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloGalaxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloGalaxy.app/HelloGalaxy";
+			};
+			name = Debug;
+		};
+		873F66CB1AB8339400F8F3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloGalaxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloGalaxy.app/HelloGalaxy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		873F66A21AB8339400F8F3BA /* Build configuration list for PBXProject "HelloGalaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873F66C41AB8339400F8F3BA /* Debug */,
+				873F66C51AB8339400F8F3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873F66C61AB8339400F8F3BA /* Build configuration list for PBXNativeTarget "HelloGalaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873F66C71AB8339400F8F3BA /* Debug */,
+				873F66C81AB8339400F8F3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		873F66C91AB8339400F8F3BA /* Build configuration list for PBXNativeTarget "HelloGalaxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873F66CA1AB8339400F8F3BA /* Debug */,
+				873F66CB1AB8339400F8F3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 873F669F1AB8339400F8F3BA /* Project object */;
+}
